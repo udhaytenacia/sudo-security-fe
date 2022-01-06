@@ -13,8 +13,7 @@ class Login extends Component {
 		this.state = { data_dealer: []};
 	}
 	componentDidMount() {
-		
-		//this.getUsersData('test','test');
+		//add on load content here
 	}
 	fnSubmitLogin(){
 		var email = $("#text_email").val();
